@@ -1,0 +1,11 @@
+switch (表达式)
+{
+    case 常量表达式1：    语句1
+    case 常量表达式2：    语句2
+       ┇
+    case 常量表达式n：    语句n
+    default:        语句n+1
+}
+
+1. switch（）中支持的数据类型有：byte、short、char以及int，从jdk1.5开始支持枚举类型，从jdk1.7开始支持String类型。
+2. switch是“选择”语句，不是“循环”语句。很多新手看到break就以为是循环语句，因为break一般给我们的印象都是跳出“循环”，但break还有一个用法，就是跳出switch。

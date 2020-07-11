@@ -1,0 +1,2 @@
+1. 0做除数时算数异常
+2. 一维数组下标越界，编译ok，运行时ArrayIndexOutOfBoundsException数组下标越界异常。
